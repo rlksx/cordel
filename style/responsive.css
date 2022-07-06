@@ -1,0 +1,8 @@
+@media (min-width: 1024px) {
+  header h1 {
+    font-size: 8rem;
+  }
+  footer h3 {
+    font-size: 2rem;
+  }
+}

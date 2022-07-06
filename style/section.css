@@ -1,0 +1,34 @@
+section {
+  font-family: 'Sriracha', cursive;
+  font-size: 2.2rem;
+
+  padding-block: 10vh;
+  padding-left: 5vw;
+
+  line-height: 2em;
+}
+
+section.with-bg {
+  background-color: #222;
+  background-size: cover;
+  background-attachment: fixed;
+
+  text-shadow: 1px 1px 0px black;
+  box-shadow: inset 4px 4px 30px #222;
+
+  color: white;
+}
+
+section.with-bg p {
+  background-color: hsla(0, 0%, 0%, 0.6);
+  display: inline-block;
+  padding: 1.4rem;
+}
+section#img01 {
+  background-image: url('../assets/background-img01.jpg');
+  background-position: right center;
+}
+section#img02 {
+  background-image: url('../assets/background-img02.jpg');
+  background-position: right center;
+}

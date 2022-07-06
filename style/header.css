@@ -1,0 +1,39 @@
+header {
+  background-color: #222;
+
+  height: 25rem;
+  width: 100%;
+
+  position: relative;
+
+  color: white;
+}
+
+header h1 {
+  font-size: 6rem;
+  font-family: 'Passion One', cursive;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+}
+
+header p {
+  font-size: 1.8rem;
+  text-align: center;
+  color: white;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+header a:hover {
+  text-decoration: underline;
+}
+/* div#header > header */
+div#header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
