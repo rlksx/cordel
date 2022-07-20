@@ -25,10 +25,10 @@ section.with-bg p {
   padding: 1.4rem;
 }
 section#img01 {
-  background-image: url('../assets/background-img01.jpg');
+  background-image: url('/src/assets/background-img01.jpg');
   background-position: right center;
 }
 section#img02 {
-  background-image: url('../assets/background-img02.jpg');
+  background-image: url('/src/assets/background-img02.jpg');
   background-position: right center;
 }
